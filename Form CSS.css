@@ -1,0 +1,102 @@
+em{
+    color: red;
+}
+fieldset{
+   width: 500px;
+}
+
+/* 
+*{
+    font-style: italic;
+ } */
+
+/* Selector */
+
+ h1{
+     color: red;
+ }
+
+/* Class Selector */
+
+ p.note{
+     color: red;
+     
+ }
+
+/* ID Selector */
+
+ #top{
+     
+     font-size: 3em;
+ }
+
+ /* li > a{
+     color: darkgreen;
+ } */
+
+/* Descendant Selector */
+
+ li a{
+     color: darkgreen;
+ }
+
+/* Adjacent Sibli ng
+Selector */
+
+ h4 + p{
+     color: rgb(0, 162, 255);
+ }
+
+/* General Sibling
+Selector */
+
+ h5 ~ p{
+     
+     color: rgb(132, 0, 255);
+ }
+
+
+ a{
+     color: darkgreen !important;
+ }
+ a{
+     color: rgb(252, 0, 0);
+     font-style: italic;
+ }
+ a{
+     color: red !important;
+ }
+ div{
+     background-color: burlywood;
+     padding: 3%;
+ }
+
+/* Chil d Selector */
+
+ div > p{
+     background-color: antiquewhite;
+     padding: inherit;
+ }
+ 
+ #LAST_RULE{
+     
+     font-size: 2em;
+     color: blue;
+ }
+
+
+ #SPECIFICITY{
+     
+     font-size: 2em;
+     color: green;
+ }
+
+ #IMPORTANT{
+     
+     font-size: 2em;
+     color: red;
+ }
+
+#CSS_RULES{
+  font-size: 3em;
+  text-align: center;

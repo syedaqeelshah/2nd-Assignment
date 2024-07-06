@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+<!-- <link href="./" rel="stylesheet" href=""> -->
+
+ <link href="./Form CSS.css" rel="stylesheet" type="text/css">  
+
+    <!-- <style>
+        
+        em{
+            color: red;
+        }
+        fieldset{
+           width: 500px;
+        }
+    </style> -->
+</head>
+<body>
+    <p>Form</p>
+
+    <form >
+        <h4>
+        User Name: 
+        <br>
+        
+        <input type="text" required_name="username" size="20" placeholder="User Name" maxlength="20" required > <em> (required)</em> <em>*</em>
+        <p>
+            Password: 
+            <br>
+            <input type="password" name="password" size="20" placeholder="Password" maxlength="20" required > <em> (required)</em> <em>*</em>
+        </p>
+        <p>
+            Gender: <br>
+            <input id="male_radio" type="radio" name="gender" value="male" checked>
+            <label for="male_radio">Male</label>
+            <input id="female_radio" type="radio" name="gender" value="famle">
+            <label for="female_radio">Female</label>
+        </p>
+
+        <p>
+            Family Name: <br>
+            <input type="text" required_name="familyname"  placeholder="Family Name"  size="20" maxlength="30" required> <em> (required)</em> <em>*</em>
+   
+        </p>
+    
+        <p>
+
+        </p>
+        
+        
+        <p> Date Of Birth: <br>
+            <input type="date" name="D_O_B" placeholder="DD-MON_YYYY" id="D_O_B" required>  <em> (required)</em> <em>*</em>
+        </p>
+        
+        <fieldset> <legend> Contact Information </legend>
+
+        <p> Email address:  <br>
+            <input type="email" required name="name"  placeholder="abc@gmail.com" required  > <em> (required)</em> <em>*</em>
+        </p> 
+        <p>
+            Mobile No: <br>
+            <input type="number" placeholder="Mobile No" name="Mobile_no" id="mobile_no" required> <em> (required)</em> <em>*</em>
+        </p>
+
+        <p>
+            User Device <br>
+            <select name="devices" multiple>
+            <option value="laptop">laptop</option>
+            <option value="PC">PC</option>
+            <option value="Mobile">Mobile</option>
+        </select>
+        </p>
+        
+    </fieldset>
+
+    <fieldset>
+    <legend>Required Information</legend>
+   <p> <em>*</em> Relationship to applicant <em> (required)</em>  </p>
+   
+   <p>
+    Upload Profile Picture
+    <input type="file" id="userimage">
+   </p>
+   
+   <input type="text" name="" id="">
+   <p> <em>*</em> <input type="checkbox" name="" id="">  I agree with the consent and disclaimer. <em> (required)</em>   </p>
+</fieldset>
+   
+        <p>
+            <input type="button" value="submit">
+        </p>
+    </h4>
+    </form>
+
+    <a href="./index.html"> Go to home</a>
+</body>
+</html>
